@@ -1,0 +1,23 @@
+[package]
+name = "sitemap-rs"
+version = "0.0.1"
+edition = "2021"
+license = "ISC"
+homepage = "https://coderme.com/sitemap-rs"
+repository = "https://github.com/coderme/sitemap-rs.git"
+
+[dependencies]
+async-std = "1"
+chrono = { version = "0.4", features = ["serde"] }
+sqlx = { version = "0.7", features = ["postgres", "chrono", "runtime-async-std"] }
+serde = { version = "1", features = ["derive"] }
+dotenvy = "0.15"
+config = "0.13"
+env_logger = "0.8"
+sailfish = "0.8"
+log = "0.4"
+
+[badges.maintenance]
+status = "actively-developed"
+
+
