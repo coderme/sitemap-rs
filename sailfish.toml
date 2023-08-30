@@ -1,0 +1,5 @@
+template_dirs = ["tpl"]
+escape = true
+delimiter = "%"
+
+
