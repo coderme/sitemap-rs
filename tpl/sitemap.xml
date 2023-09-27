@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <% for v in links {  %>
+
+   <url>
+
+      <loc><%= v.loc %></loc>
+
+      <% if !v.lastmod.is_empty() {  %>
+      <lastmod><%= v.lastmod %></lastmod>
+      <% } %>
+      
+
+      <% if !v.changefreq.is_empty() {  %>
+      <changefreq><%= v.changefreq %></changefreq>
+      <% } %>
+      
+      <% if v.priority > 0.0 {  %>
+      <priority><%= v.priority %></priority>
+      <% } %>
+
+   </url>
+
+   <% } %>
+
+</urlset> 
+
