@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <% for v in links { %>
+
+  <sitemap>
+
+    <loc><%= v.loc %></loc>
+
+      <% if !v.lastmod.is_empty() {  %>
+      <lastmod><%= v.lastmod %></lastmod>
+      <% } %>
+      
+   </sitemap>
+
+   <% } %>
+
+</sitemapindex>
+
+
