@@ -157,3 +157,4 @@ mod tests {
 
 </sitemap>
 
+<sitemap>
