@@ -158,3 +158,4 @@ mod tests {
 </sitemap>
 
 <sitemap>
+<loc>https://coderme.com/page-2</loc>
