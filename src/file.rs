@@ -176,3 +176,4 @@ mod tests {
 </sitemapindex>"#;
 
         let links: Vec<Link> = vec![
+            Link {
