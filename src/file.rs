@@ -177,3 +177,4 @@ mod tests {
 
         let links: Vec<Link> = vec![
             Link {
+                loc: "https://coderme.com/page-1".to_string(),
