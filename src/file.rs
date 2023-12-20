@@ -180,3 +180,4 @@ mod tests {
                 loc: "https://coderme.com/page-1".to_string(),
                 priority: 0.0,
                 changefreq: String::from(""),
+                lastmod: String::from("2023-11-11"),
