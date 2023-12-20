@@ -182,3 +182,4 @@ mod tests {
                 changefreq: String::from(""),
                 lastmod: String::from("2023-11-11"),
             },
+            Link {
