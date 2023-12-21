@@ -184,3 +184,4 @@ mod tests {
             },
             Link {
                 loc: "https://coderme.com/page-2".to_string(),
+                priority: 0.0,
