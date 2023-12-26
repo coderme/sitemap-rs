@@ -191,3 +191,4 @@ mod tests {
             Link {
                 loc: "https://coderme.com/page-3".to_string(),
                 priority: 0.0,
+                changefreq: String::from(""),
