@@ -189,3 +189,4 @@ mod tests {
                 lastmod: String::from("2023-11-11"),
             },
             Link {
+                loc: "https://coderme.com/page-3".to_string(),
