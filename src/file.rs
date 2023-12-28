@@ -197,3 +197,4 @@ mod tests {
         ];
 
         create_sitemap_index(NAME, links).unwrap();
+        let mut f = File::open(NAME).unwrap();
