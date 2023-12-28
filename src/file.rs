@@ -196,3 +196,4 @@ mod tests {
             },
         ];
 
+        create_sitemap_index(NAME, links).unwrap();
