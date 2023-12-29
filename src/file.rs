@@ -199,3 +199,4 @@ mod tests {
         create_sitemap_index(NAME, links).unwrap();
         let mut f = File::open(NAME).unwrap();
         let mut buf = vec![];
+        f.read_to_end(&mut buf).unwrap();
