@@ -200,3 +200,4 @@ mod tests {
         let mut f = File::open(NAME).unwrap();
         let mut buf = vec![];
         f.read_to_end(&mut buf).unwrap();
+        let out = String::from_utf8(buf).unwrap();
