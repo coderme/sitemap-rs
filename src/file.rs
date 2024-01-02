@@ -202,3 +202,4 @@ mod tests {
         f.read_to_end(&mut buf).unwrap();
         let out = String::from_utf8(buf).unwrap();
         assert_eq!(out, RESULT);
+    }
