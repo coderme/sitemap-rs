@@ -201,3 +201,4 @@ mod tests {
         let mut buf = vec![];
         f.read_to_end(&mut buf).unwrap();
         let out = String::from_utf8(buf).unwrap();
+        assert_eq!(out, RESULT);
