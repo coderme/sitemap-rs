@@ -206,3 +206,4 @@ mod tests {
 
     #[test]
     fn test_compress_file() {
+        let compressed = format!("{}.gz", SITEMAP_NAME);
