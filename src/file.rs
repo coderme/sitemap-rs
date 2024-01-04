@@ -209,3 +209,4 @@ mod tests {
         let compressed = format!("{}.gz", SITEMAP_NAME);
 
         compress_file(SITEMAP_NAME).unwrap();
+        File::open(compressed).unwrap();
