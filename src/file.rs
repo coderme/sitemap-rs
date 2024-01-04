@@ -208,3 +208,4 @@ mod tests {
     fn test_compress_file() {
         let compressed = format!("{}.gz", SITEMAP_NAME);
 
+        compress_file(SITEMAP_NAME).unwrap();
