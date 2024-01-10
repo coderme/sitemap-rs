@@ -210,3 +210,4 @@ mod tests {
 
         compress_file(SITEMAP_NAME).unwrap();
         File::open(compressed).unwrap();
+    }
