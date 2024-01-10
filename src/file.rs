@@ -212,3 +212,4 @@ mod tests {
         File::open(compressed).unwrap();
     }
 }
+
